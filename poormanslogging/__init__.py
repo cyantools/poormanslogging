@@ -50,7 +50,7 @@ def wait_until(msg, lamb, oper, expected, pausebetween):
 
 def __waiter(msg, lamb, oper, negated, expected, pausebetween):
     def do_print():
-        mess = '[·] {s} {t} {green}|{reset} {m}'.format(s=spins.next(), green=colorama.Fore.GREEN, reset=colorama.Style.RESET_ALL, t=time.strftime('%H:%M:%S'), m=msg)
+        mess = '[·] {s} {t} {green}|{reset} {m}'.format(s=next(spins), green=colorama.Fore.GREEN, reset=colorama.Style.RESET_ALL, t=time.strftime('%H:%M:%S'), m=msg)
         sys.stdout.write('\r' + mess)
         sys.stdout.flush()
         time.sleep(pausebetween)
