@@ -15,5 +15,6 @@ setup(
     author='Nicolas Villanueva',
     author_email='villanueva.arg@gmail.com',
     url='https://github.com/nicovillanueva/poormanslogging',
-    packages=['poormanslogging']
+    packages=['poormanslogging'],
+    install_requires=['colorama']
 )

@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 
 import time
-import colorama
 import itertools
 import sys
 import random
+
+import colorama
 
 spins = itertools.cycle(['|', '/', '-', '\\'])
 
