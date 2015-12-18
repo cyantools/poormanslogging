@@ -30,6 +30,7 @@ def wait_while(msg, lamb, oper, expected, pausebetween):
         msg: Message to display while waiting
         lamb: Lambda to call (example: `lambda: foo(bar, baz)`)
         oper: Operator (from the `operator` module) to compare the lambda result and the expectation
+        expected: What the lambda will give out while we wait
         pausebetween: Time between calls to the lambda
     """
     __waiter(msg, lamb, oper, False, expected, pausebetween)
@@ -43,6 +44,7 @@ def wait_until(msg, lamb, oper, expected, pausebetween):
         msg: Message to display while waiting
         lamb: Lambda to call (example: `lambda: foo(bar, baz)`)
         oper: Operator (from the `operator` module) to compare the lambda result and the expectation
+        expected: What the lambda should return for the polling to end
         pausebetween: Time between calls to the lambda
     """
     __waiter(msg, lamb, oper, True, expected, pausebetween)
