@@ -11,3 +11,7 @@ Quick and awfully dirty module I used a lot.
 ## Configuring
 
 Hahaha, no.
+
+## Demo
+
+[![asciicast](https://asciinema.org/a/5yb3bdq1oinenfqmzpa1b6fjl.png)](https://asciinema.org/a/5yb3bdq1oinenfqmzpa1b6fjl)
