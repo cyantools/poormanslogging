@@ -6,7 +6,7 @@ Quick and awfully dirty module I used a lot.
 
 ## Installing
 
-`pip install git+https://github.com/nicovillanueva/poormanslogging` or just stick it into `requirements.txt`
+`pip install poormanslogging` or just stick it into `requirements.txt`
 
 ## Configuring
 
