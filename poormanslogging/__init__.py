@@ -22,6 +22,10 @@ def info(msg):
     print('[·] - {t} {green}|{reset} {m}'.format(green=colorama.Fore.GREEN, reset=colorama.Style.RESET_ALL, t=time.strftime('%H:%M:%S'), m=msg))
 
 
+def debug(msg):
+    print('[ ] - {t} {blue}|{reset} {m}'.format(blue=colorama.Fore.BLUE, reset=colorama.Style.RESET_ALL, t=time.strftime('%H:%M:%S'), m=msg))
+
+
 def wait_while(msg, lamb, oper, expected, pausebetween):
     """Call a lambda every a given number of seconds,
     WHILE the result of the lambda matches the expectation considering the given operator.
