@@ -5,7 +5,7 @@ from setuptools import setup
 setup(
     name='poormanslogging',
     packages=['poormanslogging'],
-    version='1.0',
+    version='1.1',
     description='Dirt simple logging',
     long_description='A simple and straightforward library to log stuff into console. It uses colors and implements a spinner for long-running operations.',
     author='Nicolas Villanueva',
