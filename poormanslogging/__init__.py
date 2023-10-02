@@ -19,7 +19,7 @@ def warn(msg):
 
 
 def info(msg):
-    print('[·] - {t} {green}|{reset} {m}'.format(green=colorama.Fore.GREEN, reset=colorama.Style.RESET_ALL, t=time.strftime('%H:%M:%S'), m=msg))
+    print('[*] - {t} {green}|{reset} {m}'.format(green=colorama.Fore.GREEN, reset=colorama.Style.RESET_ALL, t=time.strftime('%H:%M:%S'), m=msg))
 
 
 def debug(msg):
